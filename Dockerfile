@@ -1,4 +1,4 @@
-FROM node:19 AS app
+FROM node:20-bookworm AS app
 
 # We don't need the standalone Chromium
 RUN apt-get install -y wget \
